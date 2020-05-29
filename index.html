@@ -13,7 +13,8 @@
     <h1>Welcome to Lynn LAN!</h1>
     <h2>Lynn Valley's Local Area Network</h2>
     <p>
-      Lynn LAN is a neighbourhood network operated by
+      Lynn LAN is a neighbourhood network in North Vancouver, British Columbia,
+      operated by
       <a href="https://adamsoltys.com">Adam Soltys</a> that anyone can join to
       receive discount high-speed Internet service.
     </p>
@@ -32,39 +33,42 @@
     <h2>How it Works</h2>
 
     <p>
-      I have a 1 gigabit per second Telus Pure Fibre business connection that
-      I'm willing to share with any household that wants to connect to me.
+      I have a 1 gigabit per second Telus Pure Fibre business Internet
+      connection that I'm willing to share with any household that wants to
+      connect to me.
     </p>
 
     <p>
       We can connect either by running a direct cable if you're on an adjacent
       property, or by using an outdoor WiFi antenna to establish a wireless link
-      so long as there's a direct line of sight.
+      so long as there's direct line of sight.
     </p>
 
     <p>
       As more households join the network, you may be able to connect to them as
-      well if they're willing to act as a relay by forwarding my connection or
-      as a gateway by sharing their own high speed connection.
+      well. Anyone in the network can act as a relay by forwarding my connection
+      or as a gateway by sharing their own high speed connection from another
+      ISP.
     </p>
 
     <p>
-      The antenna or cable connecting to your neighbour plugs into a router in
-      your home. The router creates a hotspot access point that your devices can
-      connect to over WiFi or ethernet.
+      The antenna or cable connecting to me or your upstream neighbour plugs
+      into a router in your home. The router creates a hotspot access point that
+      your devices can connect to over WiFi or ethernet.
+    </p>
+
+    <p>
+      The router runs open source software from
+      <a href="https://althea.net">Althea</a> that takes care of sharing the
+      connection efficiently when we're both trying to use it, keeping track of
+      how much bandwidth is being used, managing billing, and securing the
+      network through encrypted VPN tunnels.
     </p>
 
     <p>
       The service can work alongside your existing service as a completely
       separate hotspot so you can keep your current plan and try things out with
       no strings attached.
-    </p>
-
-    <p>
-      Open source software from <a href="https://althea.net">Althea</a> runs on
-      the routers and takes care of splitting the connection efficiently,
-      keeping track of how much bandwidth is being used, managing billing, and
-      securing the network through encrypted VPN tunnels.
     </p>
 
     <h2>Equipment Needed</h2>
@@ -88,7 +92,7 @@
       </li>
     </ul>
 
-    <div style="display: flex;">
+    <div style="display: flex; flex-wrap: wrap;">
       <img src="wire.jpg" alt="Wireless Wire" />
       <img src="nano.jpg" alt="Ubiquiti Nanobeam" />
     </div>
@@ -111,7 +115,7 @@
       </li>
     </ul>
 
-    <div style="display: flex;">
+    <div style="display: flex; flex-wrap: wrap;">
       <img src="wrt.jpg" alt="Linksys WRT3200 Router" />
       <img src="gl.jpg" alt="GL-B1300 Router" />
     </div>
@@ -130,9 +134,9 @@
       Each month, my router will produce a report of how much bandwidth was
       consumed by all the routers connected to it. I'll send out an email
       invoice to each subscriber with a report of their bandwidth usage, asking
-      for payment of $20 plus $0.10/GB for every GB of bandwidth used. The
+      for payment of $20 plus 10 cents for every GB of bandwidth used. The
       average Canadian household uses 100GB of data in a month. You can check
-      with your provider to find out your monthly usage. Payment can be sent by:
+      with your provider to find out your typical monthly usage. Payment can be sent by:
     </p>
 
     <ul>
@@ -164,9 +168,9 @@
       communications network that can have multiple redundant paths to the
       Internet and continue to operate in emergency situations. Households on
       the network can continue to host services, share files, and communicate
-      with each other even if the wider Internet were to become unavailable.
-      There's a potential to connect up with similar networks in other
-      neighbourhoods, forming a kind of
+      with each other even if the wider Internet were to become lame or
+      unavailable. There's a potential to connect up with similar networks in
+      other neighbourhoods, forming a kind of
       <a href="https://en.wikipedia.org/wiki/Mesh_networking">meshnet</a>.
     </p>
 
@@ -183,13 +187,17 @@
       help anyone who wants to know more.
     </p>
 
+    <b>Can you help me install the antenna and router at my house and help with any other setup and configuration or troubleshooting?</b>
+    <p>Yes</p>
+
     <b>Can I hook up my neighbours?</b>
     <p>
-      Yes, if you want to act as a relay in the network you can set up a link
-      between more than one neighbour or sell the connection to your neighbours.
-      The software included on your router will keep track of how much bandwidth
-      they use and you can charge them whatever you like for it. I might offer a discounted
-      data rate to households that relay my connection.
+      Yes, if you want to act as a relay in the network you can set up links to
+      more than one neighbour and sell the connection you get from me or someone
+      else to them. The software included on your router will keep track of how
+      much bandwidth they use and you can charge them whatever you like for it.
+      I might offer a discounted volume data rate to you in that case if you're
+      relaying my connection.
     </p>
 
     <b
@@ -206,8 +214,8 @@
       any guarantees about uptime or my own personal availability at this point
       so if losing Internet for a few hours due to unexpected outages is going
       to be a deal-breaker for you, I'd suggest staying with your current
-      provider for a while until the network gets built out a bit more and
-      there are more households than just mine acting as gateways to the Internet.
+      provider for a while until the network gets built out a bit more and there
+      are more households than just mine acting as gateways to the Internet.
     </p>
 
     <b>What else is cool about decentralized community meshnets?</b>
@@ -219,8 +227,8 @@
       connection, anyone on the network could offer to be a gateway node and get
       their own resellable connection from Telus or another provider that they
       could offer to everyone on the network for a cheaper rate. The software on
-      everyone's routers will automatically find and use the cheapest/fastest route to
-      the Internet if there are multiple options.
+      everyone's routers will automatically find and use the cheapest/fastest
+      route to the Internet if there are multiple options.
     </p>
 
     <b>How many people can join?</b>
@@ -235,9 +243,10 @@
       instead?</b
     >
     <p>
-      Yes, your provider may charge a cancellation fee, something like $10/month
-      for each month remaining on your contract. You'll probably save more than
-      that by switching though.
+      Yes, if things are going well for a while and you want to drop your
+      current plan, your provider may charge a cancellation fee, something like
+      $10/month for each month remaining on your contract. You'll probably save
+      more than that by switching though.
     </p>
 
     <b>How do I get started?</b>
@@ -248,7 +257,7 @@
     <b>Where can I learn more?</b>
     <p>
       There are a lot of great resources at
-      <a href="https://althea.net/getting-started">althea.net</a>
+      <a href="https://althea.net/getting-started">althea.net</a> and I'll probably update this page with more info as I think of it and as the network gets going.
     </p>
   </body>
 </html>
