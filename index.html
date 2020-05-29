@@ -1,53 +1,254 @@
 <html>
   <head>
     <title>Lynn LAN</title>
-    <meta name=viewport content="width=device-width,initial-scale=1"
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+      img {
+        max-width: 300px;
+        display: block;
+      }
+    </style>
   </head>
-  <body style="margin: 1em 2em">
-    <h1>Welcome to Lynn LAN!
+  <body style="margin: 1em 2em; max-width: 650px;">
+    <h1>Welcome to Lynn LAN!</h1>
     <h2>Lynn Valley's Local Area Network</h2>
     <p>
-    Lynn LAN is an open network operated by <a href="https://adamsoltys.com">Adam Soltys</a> that anyone in North Vancouver's Lynn Valley can join to receive discount high-speed Internet service. The backhaul connection is a 1Gbps (gigabit per second) fibre connection provided by Telus at Adam's home.
+      Lynn LAN is a neighbourhood network operated by
+      <a href="https://adamsoltys.com">Adam Soltys</a> that anyone can join to
+      receive discount high-speed Internet service.
     </p>
+
+    <img src="lynn.png" alt="Lynn Valley" style="max-width: 100%;" />
 
     <h2>Pricing</h2>
 
     <p>$20 CAD/month + monthly data charges</p>
-    <p>Data rate: $0.10/GB upload/download</p>
+    <p>Data rate: $0.10/GB unlimited upload/download</p>
 
     <h2>Speed</h2>
 
-    <p>100-500Mbps</p>
+    <p>80-500 Mbps depending on equipment and link distance</p>
 
     <h2>How it Works</h2>
 
-    <p>A household wanting to join the network can connect to another household that's already on the network, either by running a direct cable if they're on an adjacent property, or by using an outdoor WiFi antenna to establish a wireless link, like the old game of telephone with tin cans and string going from house to house.</p>
+    <p>
+      I have a 1 gigabit per second Telus Pure Fibre business connection that
+      I'm willing to share with any household that wants to connect to me.
+    </p>
 
-    <p>The cable or wireless signal from your neighbour's place will be plugged into a router in your home via ethernet cable. The router creates a hotspot/access point that your devices can connect to via WiFi or ethernet.</p>
-   
-    <p>The service can work alongside your existing service as a completely separate hotspot so you can keep your current plan and try things out with no strings attached.</p>
-   
+    <p>
+      We can connect either by running a direct cable if you're on an adjacent
+      property, or by using an outdoor WiFi antenna to establish a wireless link
+      so long as there's a direct line of sight.
+    </p>
+
+    <p>
+      As more households join the network, you may be able to connect to them as
+      well if they're willing to act as a relay by forwarding my connection or
+      as a gateway by sharing their own high speed connection.
+    </p>
+
+    <p>
+      The antenna or cable connecting to your neighbour plugs into a router in
+      your home. The router creates a hotspot access point that your devices can
+      connect to over WiFi or ethernet.
+    </p>
+
+    <p>
+      The service can work alongside your existing service as a completely
+      separate hotspot so you can keep your current plan and try things out with
+      no strings attached.
+    </p>
+
+    <p>
+      Open source software from <a href="https://althea.net">Althea</a> runs on
+      the routers and takes care of splitting the connection efficiently,
+      keeping track of how much bandwidth is being used, managing billing, and
+      securing the network through encrypted VPN tunnels.
+    </p>
+
     <h2>Equipment Needed</h2>
 
-    <h3>High-Speed Wireless Antenna</h3>
+    <h3>1x High-Speed Wireless Antenna</h3>
 
     <ul>
-      <li><a href="https://mikrotik.com/product/wireless_wire">Microtik Wireless Wire</a></li>
-      <li><a href="https://www.amazon.ca/UBIQUITI-NBE-5AC-GEN2-Ubiquiti-Nanobeam-Black/dp/B072RSF5XW/ref=sr_1_2?keywords=ubiquiti+nanobeam&qid=1590706500&sr=8-2">Ubiquiti Nanobeam</a></li>
-      </ul>
+      <li>
+        Premium Option:
+        <a
+          href="https://www.amazon.ca/Mikrotik-Wireless-Wire-RBwAPG-60ad-Duplex/dp/B077992GG3"
+          >Microtik Wireless Wire</a
+        >
+      </li>
+      <li>
+        Bargain Option:
+        <a
+          href="https://www.amazon.ca/UBIQUITI-NBE-5AC-GEN2-Ubiquiti-Nanobeam-Black/dp/B072RSF5XW/ref=sr_1_2?keywords=ubiquiti+nanobeam&qid=1590706500&sr=8-2"
+          >Ubiquiti Nanobeam</a
+        >
+      </li>
+    </ul>
 
-      <h3>Router</h3>
-      <ul>
-        <li><a href="https://www.amazon.ca/Linksys-WRT3200ACM-CA-Dual-Band-Gigabit-Wireless/dp/B01M9DV0OY/ref=sr_1_2?keywords=linksys+wrt32x&qid=1590706613&sr=8-2">Linksys WRT3200ACM</a></li>
-        <li><a href="https://www.amazon.ca/GL-iNet-GL-B1300-Gigabit-Networking-pre-Installed/dp/B079FJKZV8/ref=sr_1_2?keywords=glinet&qid=1590706650&sr=8-2">GL-B1300</a></li>
-        </ul>
+    <div style="display: flex;">
+      <img src="wire.jpg" alt="Wireless Wire" />
+      <img src="nano.jpg" alt="Ubiquiti Nanobeam" />
+    </div>
 
-        <h2>Billing Methods</h2>
+    <h3>1x Router</h3>
+    <ul>
+      <li>
+        Premium Option:
+        <a
+          href="https://www.amazon.ca/Linksys-WRT3200ACM-CA-Dual-Band-Gigabit-Wireless/dp/B01M9DV0OY/ref=sr_1_2?keywords=linksys+wrt32x&qid=1590706613&sr=8-2"
+          >Linksys WRT3200ACM</a
+        >
+      </li>
+      <li>
+        Bargain Option:
+        <a
+          href="https://www.amazon.ca/GL-iNet-GL-B1300-Gigabit-Networking-pre-Installed/dp/B079FJKZV8/ref=sr_1_2?keywords=glinet&qid=1590706650&sr=8-2"
+          >GL-B1300</a
+        >
+      </li>
+    </ul>
 
-        <ul>
-          <li>Interac e-Transfer to asoltys@gmail.com</li>
-          <li>Cash/Cheque</li>
-          <li>Bitcoin (my fave!)</li>
-          </ul>
+    <div style="display: flex;">
+      <img src="wrt.jpg" alt="Linksys WRT3200 Router" />
+      <img src="gl.jpg" alt="GL-B1300 Router" />
+    </div>
+
+    <h3>1x Outdoor Ethernet Cable</h3>
+
+    <p>
+      I have a 1000ft spool of cable so I can provide this and cut it to length
+      for people as needed.
+    </p>
+    <img src="cable.jpg" alt="Ethernet Cable" />
+
+    <h2>Payment</h2>
+
+    <p>
+      Each month, my router will produce a report of how much bandwidth was
+      consumed by all the routers connected to it. I'll send out an email
+      invoice to each subscriber with a report of their bandwidth usage, asking
+      for payment of $20 plus $0.10/GB for every GB of bandwidth used. The
+      average Canadian household uses 100GB of data in a month. You can check
+      with your provider to find out your monthly usage. Payment can be sent by:
+    </p>
+
+    <ul>
+      <li>Interac e-Transfer to asoltys@gmail.com</li>
+      <li>Cash or Cheque</li>
+      <li>
+        Bitcoin to
+        <a
+          href="https://blockstream.info/address/bc1q4wpej4pglmukywk4c77kks9rryhunyahk3ypdh"
+          >bc1q4wpej4pglmukywk4c77kks9rryhunyahk3ypdh</a
+        >
+      </li>
+    </ul>
+
+    <h2>FAQ</h2>
+
+    <b>Is this legal?</b>
+    <p>
+      Yes, the wireless antennas transmit over the unlicensed WiFi spectrum at
+      either 5Ghz or 60Ghz at power levels well within local regulatory limits.
+      I've confirmed with Telus in writing that I won't be violating their terms
+      of service by sharing or re-selling my connection because I'm paying for a
+      business account.
+    </p>
+
+    <b>Is this cool?</b>
+    <p>
+      Yes, extremely cool. By participating, you'll be building a resilient
+      communications network that can have multiple redundant paths to the
+      Internet and continue to operate in emergency situations. Households on
+      the network can continue to host services, share files, and communicate
+      with each other even if the wider Internet were to become unavailable.
+      There's a potential to connect up with similar networks in other
+      neighbourhoods, forming a kind of
+      <a href="https://en.wikipedia.org/wiki/Mesh_networking">meshnet</a>.
+    </p>
+
+    <b
+      >What about privacy/security? Can my neighbours snoop on my data or see
+      what sites I'm visiting?</b
+    >
+    <p>
+      No, all the connections are routed through an unlogged
+      <a href="https://www.wireguard.com/">VPN</a> server before being sent on
+      to the Internet. For a few dollars per month you can use an additional 3rd
+      party VPN like <a href="https://nordvpn.com/">Nord</a> or
+      <a href="https://www.privateinternetaccess.com/">PIA</a>. I'd be happy to
+      help anyone who wants to know more.
+    </p>
+
+    <b>Can I hook up my neighbours?</b>
+    <p>
+      Yes, if you want to act as a relay in the network you can set up a link
+      between more than one neighbour or sell the connection to your neighbours.
+      The software included on your router will keep track of how much bandwidth
+      they use and you can charge them whatever you like for it. I might offer a discounted
+      data rate to households that relay my connection.
+    </p>
+
+    <b
+      >Is the service going to be stable and reliable? Can I call you in the
+      middle of the night if things go wrong?</b
+    >
+    <p>
+      I'll do my best to make sure the network is always online but to be honest
+      I've never done anything quite like this before and until I get a few
+      people online and trying it out I can't say with confidence that there
+      won't be a few growing pains and hiccups. This isn't a full-time business
+      venture for me but more of a hobby project that might turn into a side gig
+      that might turn into a business one day if things go well. I can't make
+      any guarantees about uptime or my own personal availability at this point
+      so if losing Internet for a few hours due to unexpected outages is going
+      to be a deal-breaker for you, I'd suggest staying with your current
+      provider for a while until the network gets built out a bit more and
+      there are more households than just mine acting as gateways to the Internet.
+    </p>
+
+    <b>What else is cool about decentralized community meshnets?</b>
+    <p>
+      The equipment for making connections is owned and operated by the people
+      in the neighbourhood who are using the network rather than a big
+      corporation so they can switch providers or upgrade their service really
+      easily. For instance, if I were to start price gouging or overselling my
+      connection, anyone on the network could offer to be a gateway node and get
+      their own resellable connection from Telus or another provider that they
+      could offer to everyone on the network for a cheaper rate. The software on
+      everyone's routers will automatically find and use the cheapest/fastest route to
+      the Internet if there are multiple options.
+    </p>
+
+    <b>How many people can join?</b>
+    <p>
+      I think my current 1Gbps connection should be capable of comfortably
+      servicing about 40 households but at this point I'd be happy to start slow
+      and experiment with just a few brave customers for a while.
+    </p>
+
+    <b
+      >Can I get out of my current contract or bundle and switch to this
+      instead?</b
+    >
+    <p>
+      Yes, your provider may charge a cancellation fee, something like $10/month
+      for each month remaining on your contract. You'll probably save more than
+      that by switching though.
+    </p>
+
+    <b>How do I get started?</b>
+    <p>
+      Send an email to <a href="mailto:asoltys@gmail.com">asoltys@gmail.com</a>
+    </p>
+
+    <b>Where can I learn more?</b>
+    <p>
+      There are a lot of great resources at
+      <a href="https://althea.net/getting-started">althea.net</a>
+    </p>
   </body>
 </html>
